@@ -57,5 +57,10 @@ namespace WebApplicationForm
             string res = client.Delete(d);
             lblmsg.Text = res.ToString();
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

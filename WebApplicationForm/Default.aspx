@@ -28,7 +28,7 @@
     <asp:Label ID="lblmsg" runat="server" Text="Label"></asp:Label>
     </p>
 <p>
-    <asp:GridView ID="GridView1" runat="server">
+    <asp:GridView ID="GridView1" runat="server" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
     </asp:GridView>
     </p>
 </asp:Content>
